@@ -1,7 +1,25 @@
 body {
 	font-family: 'Lato', sans-serif !important;
 }
-
+.menuButton {
+	position: Fixed;
+	z-index: 200;
+	margin:10px;
+	right:10px;
+}
+.modal-title,
+.modal-body {
+	text-align: center;
+}
+.modalMenu {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.modalMenu li {
+	padding:10px;
+	font-size:16px;
+}
 .container {
 	padding-bottom:30px;
 }
@@ -14,6 +32,7 @@ body {
 	background-image: url("img/code.jpg");
 	background-repeat: no-repeat;
 	background-blend-mode: overlay;
+	background-attachment: fixed;
     background-size: cover;
     background-color:silver;
     min-height: 350px;
@@ -23,7 +42,15 @@ body {
 
 #jumbo h1,
 #jumbo p {
-	padding-bottom:10px;
+	padding-bottom:5px;
+}
+
+#jumbo p {
+	margin-top:50px;
+}
+
+#portTitle {
+	font-family: 'Limelight', cursive;
 }
 
 .grade {
@@ -32,9 +59,17 @@ body {
     background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 30%, #F2A970 230%);
     background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 30%, #F2A970 230%);
 }
+.grade2 {
+	padding-top:50px;
+	min-height:450px;
+	background-image: url("img/pattern/2.png");
+}
 .joeImage {
 	width: 90%;
     border-radius: 20%;
+    box-shadow: 0 0 20px 0 black;
+    margin:0 auto 50px auto;
+    display: block;
 }
 
 #portfolio h1 {
@@ -54,8 +89,9 @@ body {
 }
 
 .thumbnail {
-	min-height:380px;
+	min-height:440px;
 	position: relative;
+	box-shadow:5px 5px 10px -5px black;
 }
 
 .details {
@@ -64,10 +100,13 @@ body {
 }
 
 .imgThumb {
-	height:100px;
+	height:120px;
 	text-align: center;
 	border-bottom:1px solid #ddd;
 	line-height:100px;
+}
+.imgThumb {
+	margin-top:10px;
 }
 
 .thumbnail .imgThumb img {
@@ -82,8 +121,141 @@ body {
 
 .myDesc {
 	font-size:16px;
+	margin-bottom:30px;
+}
+.progress {
+	position: relative;
+}
+.barText {
+	position: absolute;
+	right:10px;
+}
+
+#rest {
+	height:450px;
+	background-image: url("img/hackmonkey.jpg");
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.4);
+}
+
+.restQoute {
+	text-align: center;
+    font-size: 30px;
+    color: white;
+    opacity: .8;
+    font-family: 'Aladin', cursive;
+    font-style: italic;
+    line-height: 125px;
 }
 
 footer {
 	text-align: center;
+	padding:20px 0;
+}
+
+footer p {
+	margin:0;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size:63px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.element {
+	border-bottom:1px solid black;
+	width:460px;
+	display: inline;
+	padding-bottom:50px;
+}
+
+
+#social {
+	margin: 10px 0;
+	padding-top:30px;
+}
+
+.twitter,
+.linkedin,
+.github {
+	border:4px solid transparent;
+	text-align: center;
+}
+.twitter:hover {
+	border:4px solid #4099FF;
+}
+.linkedin:hover {
+	border:4px solid #1C86BD;
+}
+.github:hover {
+	border:4px solid #6B3051;
+}
+
+#contactButton {
+	display: block;
+	margin:10px auto;
+}
+
+.close {
+	font-size:30px;
+	padding:10px 10px 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+.visitWork {
+	margin:20px 0;
+}
+
+.shadow {
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+	margin:5px 0 20px 0;
+	min-height:390px;
+}
+
+.slideImage {
+	max-height:320px;
+	width:auto;
+	max-width:500px;
+	margin:10px auto;
+}
+.slideTitle {
+	text-align:center;
+	border-bottom: 1px solid #eee;
+	padding-bottom:10px;
+	margin-top:0;
+}
+.viewImage {
+	max-height:200px;
+	margin-bottom: 15px;
+    padding: 30px;
+    box-shadow: inset -5px -5px 5px -2px rgba(238,238,238,1);
+}
+
+.portList li {
+	padding-bottom:4px;
+}
+
+.positionInset {
+	padding:30px 0 0 30px;
 }
