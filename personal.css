@@ -113,6 +113,7 @@ body {
 	max-height:100px;
 	width:auto;
 	padding-bottom:10px;
+	max-width: 300px;
 }
 
 .skills {
