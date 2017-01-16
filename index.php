@@ -111,7 +111,8 @@
 </div>
 
     <footer>
-        <p>&copy; 2017 JoeRoxbury.com</p>
+        <p>&copy; 2017 JoeRoxbury.com
+        <?php $a = 2017; echo $a;  ?></p>
     </footer>
 
 
