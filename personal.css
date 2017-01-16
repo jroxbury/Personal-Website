@@ -234,6 +234,11 @@ footer p {
 	min-height:390px;
 }
 
+.shadow.checkersWrap {
+	max-width: 700px;
+	margin: auto;
+}
+
 .slideImage {
 	max-height:320px;
 	width:auto;
