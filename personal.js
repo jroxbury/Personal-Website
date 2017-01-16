@@ -38,6 +38,11 @@ myApp.config(function ($routeProvider) {
 		controller:'portfolioController'
 	})
 
+  .when('/portfolio4', {
+    templateUrl:'pages/portfolio4.html',
+    controller:'portfolioController'
+  })
+
 
 });
 
