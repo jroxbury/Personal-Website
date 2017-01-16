@@ -143,12 +143,12 @@ body {
 
 .restQoute {
 	text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     opacity: .8;
     font-family: 'Aladin', cursive;
     font-style: italic;
-    line-height: 125px;
+    line-height: 50px;
 }
 
 footer {
