@@ -142,9 +142,13 @@ body {
     background-color:rgba(0,0,0,0.4);
 }
 
+.restWrap {
+	margin-top: 185px;
+}
+
 .restQoute {
 	text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     opacity: .8;
     font-family: 'Aladin', cursive;
